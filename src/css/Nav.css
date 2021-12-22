@@ -50,6 +50,9 @@ li
   transition-property: color, top;
   transition-duration: .2s;
   transition-timing-function: ease-out;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .navbtn::after {

@@ -6,14 +6,14 @@ function Nav() {
     <div className="nav">
       <img src={logo} alt='' className="logo"></img>
       <ul className="navbuttons">
-        <li><a href="#" className='navbtn'>About Us</a></li>
-        <li><a href="#" className='navbtn'>Moderators</a></li>
-        <li><a href="#" className='navbtn'>Rules</a></li>
+        <li><button className='navbtn'>About Us</button></li>
+        <li><button className='navbtn'>Moderators</button></li>
+        <li><button className='navbtn'>Rules</button></li>
         <li><span className='line'>|</span></li>
-        <li><a href="#" className='navbtn'>Menifesto</a></li>
-        <li><a href="#" className='navbtn'>FAQ</a></li>
-        <li><a href="#" className='navbtn'>Resources</a></li>
-        <li><a href="#" className='navbtn'>Others Like Us</a></li>
+        <li><button className='navbtn'>Menifesto</button></li>
+        <li><button className='navbtn'>FAQ</button></li>
+        <li><button className='navbtn'>Resources</button></li>
+        <li><button className='navbtn'>Others Like Us</button></li>
       </ul>
     </div>
   );
