@@ -1,18 +1,16 @@
 {
   "files": {
     "main.css": "/thirdeye/static/css/main.625991df.css",
-    "main.js": "/thirdeye/static/js/main.c87b18ff.js",
-    "static/js/787.2e577c0a.chunk.js": "/thirdeye/static/js/787.2e577c0a.chunk.js",
+    "main.js": "/thirdeye/static/js/main.388cdf45.js",
     "static/media/3EClogo.svg": "/thirdeye/static/media/3EClogo.d2f2b87514a306b6d4bca0e1c39e26ed.svg",
     "static/media/IntroImg.svg": "/thirdeye/static/media/IntroImg.493296491736874a1bbf.svg",
     "static/media/Eye.svg": "/thirdeye/static/media/Eye.2a02e14f72b19f57b861fef99d67e2e9.svg",
     "index.html": "/thirdeye/index.html",
     "main.625991df.css.map": "/thirdeye/static/css/main.625991df.css.map",
-    "main.c87b18ff.js.map": "/thirdeye/static/js/main.c87b18ff.js.map",
-    "787.2e577c0a.chunk.js.map": "/thirdeye/static/js/787.2e577c0a.chunk.js.map"
+    "main.388cdf45.js.map": "/thirdeye/static/js/main.388cdf45.js.map"
   },
   "entrypoints": [
     "static/css/main.625991df.css",
-    "static/js/main.c87b18ff.js"
+    "static/js/main.388cdf45.js"
   ]
 }
