@@ -1,0 +1,56 @@
+<svg id="Group_11" data-name="Group 11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="236.249" viewBox="0 0 298 236.249">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #ffab07;
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-6 {
+        stroke: #8966a9;
+      }
+
+      .cls-5 {
+        fill: #333037;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-1" width="298" height="236.249"/>
+    </clipPath>
+  </defs>
+  <g id="Group_10" data-name="Group 10" class="cls-2">
+    <line id="Line_2" data-name="Line 2" class="cls-3" x1="48.588" transform="translate(3.254 119.455)"/>
+    <line id="Line_3" data-name="Line 3" class="cls-3" x1="48.588" transform="translate(246.159 119.455)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-4" d="M156.808,38.238A86.1,86.1,0,0,0,67.8,49.135L24.067,83.755a.792.792,0,0,0,0,1.243L67.8,119.617a86.076,86.076,0,0,0,106.852,0L218.384,85a.792.792,0,0,0,0-1.243L183.508,56.146" transform="translate(27.774 35.699)"/>
+    <path id="Path_5" data-name="Path 5" class="cls-5" d="M119.62,56.187a14.421,14.421,0,1,1-20.6-16.076,36.675,36.675,0,1,0,20.6,16.076" transform="translate(60.611 45.024)"/>
+    <line id="Line_4" data-name="Line 4" class="cls-6" x1="11.314" y1="37.055" transform="translate(120.359 3.254)"/>
+    <line id="Line_5" data-name="Line 5" class="cls-6" x1="20.931" y1="27.578" transform="translate(77.287 23.191)"/>
+    <line id="Line_6" data-name="Line 6" class="cls-6" x1="22.629" y1="22.911" transform="translate(49.359 50.493)"/>
+    <line id="Line_7" data-name="Line 7" class="cls-6" y1="37.055" x2="11.314" transform="translate(166.33 3.254)"/>
+    <line id="Line_8" data-name="Line 8" class="cls-6" y1="27.578" x2="20.931" transform="translate(199.784 23.191)"/>
+    <line id="Line_9" data-name="Line 9" class="cls-6" y1="22.911" x2="22.629" transform="translate(226.014 50.493)"/>
+    <line id="Line_10" data-name="Line 10" class="cls-6" x1="11.314" y2="37.055" transform="translate(120.359 195.941)"/>
+    <line id="Line_11" data-name="Line 11" class="cls-6" x1="20.931" y2="27.578" transform="translate(77.287 185.48)"/>
+    <line id="Line_12" data-name="Line 12" class="cls-6" x1="22.629" y2="22.911" transform="translate(49.359 162.846)"/>
+    <line id="Line_13" data-name="Line 13" class="cls-6" x2="11.314" y2="37.055" transform="translate(166.33 195.941)"/>
+    <line id="Line_14" data-name="Line 14" class="cls-6" x2="20.931" y2="27.578" transform="translate(199.784 185.48)"/>
+    <line id="Line_15" data-name="Line 15" class="cls-6" x2="22.629" y2="22.911" transform="translate(226.014 162.846)"/>
+  </g>
+</svg>
