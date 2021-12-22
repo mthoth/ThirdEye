@@ -4,7 +4,7 @@ import '../css/Intro.css';
 function Intro() {
   return (
     <div className="Intro">
-      <img src={eye}  className='eye'></img>
+      <img src={eye} alt='' className='eye'></img>
       <h2>Welcome to The</h2>
       <h1>THIRD EYE COLLECTIVE</h1>
       <a className='LearnMore' href='#'>Learn More</a>

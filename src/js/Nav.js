@@ -4,7 +4,7 @@ import '../css/Nav.css';
 function Nav() {
   return (
     <div className="nav">
-      <img src={logo} className="logo"></img>
+      <img src={logo} alt='' className="logo"></img>
       <ul className="navbuttons">
         <li><a href="#" className='navbtn'>About Us</a></li>
         <li><a href="#" className='navbtn'>Moderators</a></li>
