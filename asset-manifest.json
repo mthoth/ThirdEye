@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/thirdeye/static/css/main.625991df.css",
-    "main.js": "/thirdeye/static/js/main.388cdf45.js",
+    "main.css": "/thirdeye/static/css/main.8dfba536.css",
+    "main.js": "/thirdeye/static/js/main.af3fbb44.js",
+    "static/media/Caro.png": "/thirdeye/static/media/Caro.63ce2f32461bf0729d11.png",
+    "static/media/joli.png": "/thirdeye/static/media/joli.356fad4ea10a0e0625d2.png",
+    "static/media/colorful1.jpg": "/thirdeye/static/media/colorful1.5e2194861cc2c23ad5a6.jpg",
+    "static/media/colorful2.jpg": "/thirdeye/static/media/colorful2.c0c15444666bbdbd0591.jpg",
+    "static/media/iara.jpg": "/thirdeye/static/media/iara.75acb1997802c3f8f29f.jpg",
+    "static/media/Nzube.jpg": "/thirdeye/static/media/Nzube.22dbf1c19b0fdf83c653.jpg",
+    "static/media/Asia.jpg": "/thirdeye/static/media/Asia.c5cfb92a18e04fce15ab.jpg",
+    "static/media/Jack.JPG": "/thirdeye/static/media/Jack.7f52fb87aaf80753be06.JPG",
+    "static/media/Ami.jpg": "/thirdeye/static/media/Ami.6d9883ffcce8e2f4495d.jpg",
     "static/media/3EClogo.svg": "/thirdeye/static/media/3EClogo.d2f2b87514a306b6d4bca0e1c39e26ed.svg",
     "static/media/IntroImg.svg": "/thirdeye/static/media/IntroImg.493296491736874a1bbf.svg",
     "static/media/Eye.svg": "/thirdeye/static/media/Eye.2a02e14f72b19f57b861fef99d67e2e9.svg",
+    "static/media/background2.svg": "/thirdeye/static/media/background2.2a3769b61843abc8cc09.svg",
+    "static/media/insta.svg": "/thirdeye/static/media/insta.2a4c111b9465e269da14f1596ca7d4ee.svg",
+    "static/media/instawhite.svg": "/thirdeye/static/media/instawhite.ef622771a46a2a3885ce44b5dba48e99.svg",
+    "static/media/discordwhite.svg": "/thirdeye/static/media/discordwhite.6c33bef84543645908d4459889f957a1.svg",
+    "static/media/discord.svg": "/thirdeye/static/media/discord.cc1cdd3bb55691a0dfbeef5b09f685e1.svg",
+    "static/media/background3.svg": "/thirdeye/static/media/background3.8bd2086b90811458ae4466845d905aef.svg",
+    "static/media/twitterwhite.svg": "/thirdeye/static/media/twitterwhite.802e526578201eb5a50e448730722a69.svg",
+    "static/media/twitter.svg": "/thirdeye/static/media/twitter.6abd508682a3f56e44d6a32dcd1084fd.svg",
     "index.html": "/thirdeye/index.html",
-    "main.625991df.css.map": "/thirdeye/static/css/main.625991df.css.map",
-    "main.388cdf45.js.map": "/thirdeye/static/js/main.388cdf45.js.map"
+    "main.8dfba536.css.map": "/thirdeye/static/css/main.8dfba536.css.map",
+    "main.af3fbb44.js.map": "/thirdeye/static/js/main.af3fbb44.js.map"
   },
   "entrypoints": [
-    "static/css/main.625991df.css",
-    "static/js/main.388cdf45.js"
+    "static/css/main.8dfba536.css",
+    "static/js/main.af3fbb44.js"
   ]
 }
