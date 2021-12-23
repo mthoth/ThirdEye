@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="476" viewBox="0 0 1920 476">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333037;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #413d46;
+        stroke-width: 10px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31" data-name="Rectangle 31" class="cls-1" width="1920" height="476" transform="translate(-3001 991)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" class="cls-2" transform="translate(3001 -991)">
+    <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-1" width="1920" height="476" transform="translate(-3001 991)"/>
+    <g id="Group_24" data-name="Group 24" transform="translate(-3032.75 -92.5)">
+      <line id="Line_24" data-name="Line 24" class="cls-3" x1="520" y1="520" transform="translate(-271.5 1080.5)"/>
+      <line id="Line_32" data-name="Line 32" class="cls-3" x1="550.5" y1="550" transform="translate(1748.5 1050.5)"/>
+      <line id="Line_27" data-name="Line 27" class="cls-3" x1="520" y1="520" transform="translate(-403.5 1080.5)"/>
+      <line id="Line_35" data-name="Line 35" class="cls-3" x1="557.5" y1="558" transform="translate(1609.5 1042.5)"/>
+      <line id="Line_25" data-name="Line 25" class="cls-3" x1="520" y1="520" transform="translate(-227.5 1080.5)"/>
+      <line id="Line_30" data-name="Line 30" class="cls-3" x1="549.5" y1="550" transform="translate(1793.5 1050.5)"/>
+      <line id="Line_28" data-name="Line 28" class="cls-3" x1="520" y1="520" transform="translate(-359.5 1080.5)"/>
+      <line id="Line_34" data-name="Line 34" class="cls-3" x1="557.5" y1="558" transform="translate(1653.5 1042.5)"/>
+      <line id="Line_26" data-name="Line 26" class="cls-3" x1="520" y1="520" transform="translate(-183.5 1080.5)"/>
+      <line id="Line_31" data-name="Line 31" class="cls-3" x1="549.5" y1="550" transform="translate(1837.5 1050.5)"/>
+      <line id="Line_29" data-name="Line 29" class="cls-3" x1="520" y1="520" transform="translate(-315.5 1080.5)"/>
+      <line id="Line_33" data-name="Line 33" class="cls-3" x1="557.5" y1="558" transform="translate(1697.5 1042.5)"/>
+    </g>
+  </g>
+</svg>
