@@ -23,7 +23,7 @@ function Modsinfo(props)
             <h5>{props.country}</h5>
             <h5>{props.gender}{props.gender2}</h5>
             <h5 className="modbio">{props.bio}</h5>
-            <div className="email">{props.email == "N/A" ? <a style={{color: `white`}} className="modemail">{props.email}</a> : <a href={emailto()} className="modemail">{props.email}</a>}</div>
+            <div className="email">{props.email === "N/A" ? <a style={{color: `white`}} className="modemail">{props.email}</a> : <a href={emailto()} className="modemail">{props.email}</a>}</div>
             <div className="modlinkcontain">
 
             {props.instagram ? <a href={props.instagram} className="modlinks">
