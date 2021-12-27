@@ -90,7 +90,7 @@ function ModsContain()
                 bio="Filipina intersectional feminist, illustrator and smart-ass — I teach Clip Studio Paint basics for absolute beginners - comics, workflow, 3d to 2d, 2d to 3d on my youtube channel" 
                 email="n@asianoble.co"
                 twitter="https://twitter.com/jolivira_art"
-                instagram="instagram.com/asianobleart"
+                instagram="https://www.instagram.com/asianobleart"
                 youtube="https://www.youtube.com/c/asianoble"
                 web="https://www.asianoble.co"/>
                 
@@ -145,7 +145,7 @@ function ModsContain()
                 email="nzubechukwuazubike@Gmail.com"
                 twitter="https://www.twitter.com/n_azubikeart/"
                 instagram="https://www.intagram.com/n.azubike.art"
-                web="www.nazubike.com"/>
+                web="https://www.nazubike.com"/>
 
                 <Modsinfo 
                 img={moth} 
