@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../img/3EClogo.svg';
+import menu from '../img/menu.svg';
 import '../css/Nav.css';
 import { NavLink } from "react-router-dom";
 
@@ -32,7 +33,7 @@ function Navigation(props) {
         <li><NavLink to="/thirdeye/Others" className='navbtn'>Others Like Us</NavLink></li>
       </ul>
       <div className="color"></div>
-      <button className="burgermenu" onClick={BurgerMenu}>Burger</button>
+      <img src={menu} alt="" className="burgermenu" onClick={BurgerMenu}/>
     </div>
   );
 }

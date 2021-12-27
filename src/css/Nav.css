@@ -139,12 +139,21 @@ li
     transition: top 0.3s ease-out;
     top: 0;
   }
-  .burgermenu
+ 
+.burgermenu
   {
     visibility: visible;
     position: relative;
-    top: 18px;
+    top: 15px;
+    right: 15px;
     float: right;
+    height: 4vh;
+    height: 30px;
+    width: 30px;
+  }
+.burgermenu:checked
+  {
+    background-color: grey;
   }
   .navbtn
   {
