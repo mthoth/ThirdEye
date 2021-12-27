@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
 .nav
 {
+
   background-color: white;
   width: 100%;
   top: 0;
@@ -12,6 +13,7 @@
 {
   position: absolute;
   top: 0;
+  z-index: 1;
   left: 10px;
   height: 63px;
 
@@ -20,8 +22,13 @@
 .line
 {
   font-family: 'Josefin Sans', sans-serif;
+  display: inline;
   font-size: 25px;
   color: grey;
+}
+.line::after
+{
+  content: '|';
 }
 .navbuttons
 {
@@ -99,4 +106,71 @@ li
 .border
 {
   display: inline;
+}
+.burgermenu
+{
+  visibility: hidden;
+  position: absolute;
+    top: 18px;
+    float: right;
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .nav
+  {
+    z-index: 1;
+  }
+  .navbuttons
+  {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30rem;
+    background-color: whitesmoke;
+    width: 100%;
+    z-index: -1;
+    margin: 62px 0 0 0;
+    
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  .active
+  {
+    transition: top 0.3s ease-out;
+    top: 0;
+  }
+  .burgermenu
+  {
+    visibility: visible;
+    position: relative;
+    top: 18px;
+    float: right;
+  }
+  .navbtn
+  {
+    display: block;
+    float: r;
+  }
+  .color
+  {
+    background-color: white;
+  width: 100%;
+  top: 0;
+  min-height: 63px;
+  position: fixed;
+  z-index: 0;
+  }
+  .line
+  {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 2px;
+    background-color: grey;
+    
+  }
+  .line::after
+  {
+    content: '';
+  }
 }

@@ -13,7 +13,7 @@ function Rules()
             <p className="rules">Racism, LGBTQphobia, fatphobia, xenophobia, ableism or any other type of discrimination, prejudice or mean spirited comments are not allowed and are subjective to kicking/banning</p>
             <h3><b className="count">4 </b>No NSFW or triggering content!</h3>
             <p className="rules">If really necessary, use TWs and CWs</p>
-            <h3><b className="count">5 </b>Support each other and make some good art!</h3>
+            <h3><b className="count">5 </b>Support each other and make some art!</h3>
         </>
     );
 }
