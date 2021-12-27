@@ -28,7 +28,7 @@ function Home() {
   return (
     <div>
       <Navigation scrollabout={Scrollabout} scrollmod={Scrollmod} scrollrules={Scrollrules}/>
-      <Intro />
+      <Intro scrollabout={Scrollabout} />
       <Aboutus />
       <div ref={about}></div>
       <Container img={bg1} element={<About2 />}/>

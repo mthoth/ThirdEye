@@ -75,6 +75,20 @@ li
   background: #DC6262;
   top: 3px;
 }
+
+.navbtn:focus::after {
+  width: 100%;
+  background: #DC6262;
+  top: 3px;
+}
+.navbtn:focus
+{
+  position: relative;
+  top: -3px;
+  color: #DC6262;
+  outline: none;
+}
+
 .navbtn:hover
 {
   position: relative;
