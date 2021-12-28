@@ -21,16 +21,16 @@ function Navigation(props) {
  
   return (
     <div className="nav">
-    <img src={logo} alt='' className="logo" />
+      <NavLink to="/thirdeye"><img src={logo} alt='' className="logo" /></NavLink>
       <ul id="navigation" className="navbuttons">
-        <li><NavLink to="/thirdeye"  onClick={function () {props.scrollabout(); Burgeroff();} } className='navbtn'>About Us</NavLink></li>
-        <li><NavLink to="/thirdeye" onClick={function () { props.scrollmod(); Burgeroff();}} className='navbtn'>Moderators</NavLink></li>
-        <li><NavLink to="/thirdeye" onClick={function () {props.scrollrules(); Burgeroff();}} className='navbtn'>Rules</NavLink></li>
-        <li><div id="line" className='line'></div></li>
-        <li><NavLink to="/thirdeye/Manifesto" className='navbtn'>Manifesto</NavLink></li>
-        <li><NavLink to="/thirdeye/FAQ" className='navbtn'>FAQ</NavLink></li>
-        <li><NavLink to="/thirdeye/Resources" className='navbtn'>Resources</NavLink></li>
-        <li><NavLink to="/thirdeye/Others" className='navbtn'>Others Like Us</NavLink></li>
+        <li className="navlist"><NavLink to="/thirdeye"  onClick={function () {props.scrollabout(); Burgeroff();} } className='navbtn'>About Us</NavLink></li>
+        <li className="navlist"><NavLink to="/thirdeye" onClick={function () { props.scrollmod(); Burgeroff();}} className='navbtn'>Moderators</NavLink></li>
+        <li className="navlist"><NavLink to="/thirdeye" onClick={function () {props.scrollrules(); Burgeroff();}} className='navbtn'>Rules</NavLink></li>
+        <li className="navlist"><div id="line" className='line'></div></li>
+        <li className="navlist"><NavLink to="/thirdeye/Manifesto" className='navbtn'>Manifesto</NavLink></li>
+        <li className="navlist"><NavLink to="/thirdeye/FAQ" className='navbtn'>FAQ</NavLink></li>
+        <li className="navlist"><NavLink to="/thirdeye/Resources" className='navbtn'>Resources</NavLink></li>
+        <li className="navlist"><NavLink to="/thirdeye/Others" className='navbtn'>Others Like Us</NavLink></li>
       </ul>
       <div className="color"></div>
       <img src={menu} alt="" className="burgermenu" onClick={BurgerMenu}/>

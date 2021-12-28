@@ -1,7 +1,7 @@
 import React from "react";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Contact from "./pages/Contact";
+import Manifesto from "./pages/Manifesto";
 import Home from "./pages/Home";
 
 function Webpages()
@@ -14,7 +14,7 @@ function Webpages()
         <Route path="/thirdeye" element={<Home />} />
         <Route path="/thirdeye" element={<Home />} />
         <Route path="/thirdeye" element={<Home />} />
-        <Route path="/thirdeye/Manifesto" element={<Contact />} />
+        <Route path="/thirdeye/Manifesto" element={<Manifesto />} />
       </Routes>
     </Router>
     );
