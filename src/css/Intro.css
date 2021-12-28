@@ -387,6 +387,7 @@ color:rgb(231, 133, 133);
     width: 100%;
     background-color: white;
     min-height: 100vh;
+    padding-bottom: 90px;
 }
 .header
 {
@@ -395,7 +396,7 @@ color:rgb(231, 133, 133);
 }
 .content
 {
-    width: 60%;
+    width: 40%;
     margin: auto;
 }
 .content-title
@@ -406,6 +407,7 @@ color:rgb(231, 133, 133);
 }
 .content-subtitle
 {
+
     margin-top: 20px;
     color: black;
     text-align: left;
@@ -415,6 +417,43 @@ color:rgb(231, 133, 133);
 {
     font-weight: normal;
     font-size: 20px;
+}
+li
+{
+    margin: 10px 0;
+}
+p
+{
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.space
+{
+    margin: 50px 0;
+}
+.red
+{
+    color: #DC6262;
+}
+.orange
+{
+    color:rgba(217, 115, 13, 1);
+}
+.yellow
+{
+    background-color: #e0d74d77;
+}
+.green
+{
+    color: #4f8f4b;
+}
+.blue
+{
+    color:#7282d1;
+}
+.purple
+{
+    color: #BE76F5;
 }
 @media screen and (max-width: 1024px) {
 .eye
