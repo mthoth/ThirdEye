@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thirdeye/static/css/main.a887a9ef.css",
-    "main.js": "/thirdeye/static/js/main.e0729948.js",
+    "main.css": "/thirdeye/static/css/main.ce811741.css",
+    "main.js": "/thirdeye/static/js/main.7b82e877.js",
     "static/media/Caro.png": "/thirdeye/static/media/Caro.63ce2f32461bf0729d11.png",
     "static/media/joli.png": "/thirdeye/static/media/joli.356fad4ea10a0e0625d2.png",
     "static/media/colorful1.jpg": "/thirdeye/static/media/colorful1.5e2194861cc2c23ad5a6.jpg",
@@ -30,11 +30,11 @@
     "static/media/Tumblr.svg": "/thirdeye/static/media/Tumblr.e87e96231825df588c02ec392b318623.svg",
     "static/media/Twitch.svg": "/thirdeye/static/media/Twitch.751994f701fc05b01a972ab7d4d10f9f.svg",
     "index.html": "/thirdeye/index.html",
-    "main.a887a9ef.css.map": "/thirdeye/static/css/main.a887a9ef.css.map",
-    "main.e0729948.js.map": "/thirdeye/static/js/main.e0729948.js.map"
+    "main.ce811741.css.map": "/thirdeye/static/css/main.ce811741.css.map",
+    "main.7b82e877.js.map": "/thirdeye/static/js/main.7b82e877.js.map"
   },
   "entrypoints": [
-    "static/css/main.a887a9ef.css",
-    "static/js/main.e0729948.js"
+    "static/css/main.ce811741.css",
+    "static/js/main.7b82e877.js"
   ]
 }
