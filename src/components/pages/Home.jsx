@@ -21,20 +21,29 @@ function Home() {
   const mod = useRef(null);
   const rules = useRef(null);
   
-  const Scrollabout = () => setTimeout(function() {about.current.scrollIntoView({ block: "center", behavior: "smooth"});}, 100); 
-  const Scrollmod = () => setTimeout(function() {mod.current.scrollIntoView({ block: "end", behavior: "smooth"});}, 100); 
-  const Scrollrules = () => setTimeout(function() {rules.current.scrollIntoView({ block: "center", behavior: "smooth"});}, 100); 
+  const yoffest = -63;
+
+  const getoffset = (el) =>
+  {
+    const rect = el.getBoundingClientRect();
+    return rect.top + window.scrollY + yoffest;
+  };
+
+
+  const Scrollabout = () => setTimeout(function() {window.scrollTo({top: getoffset(about.current), behavior: "smooth"});}, 100); 
+  const Scrollmod = () => setTimeout(function() {window.scrollTo({top: getoffset(mod.current), behavior: "smooth"});}, 100); 
+  const Scrollrules = () => setTimeout(function() {window.scrollTo({top: getoffset(rules.current), behavior: "smooth"});}, 100); 
   
   return (
     <div>
       <Navigation scrollabout={Scrollabout} scrollmod={Scrollmod} scrollrules={Scrollrules}/>
       <Intro scrollabout={Scrollabout} />
+      <div className="scroll-padding" id="about" ref={about}></div>
       <Aboutus />
-      <div ref={about}></div>
       <Container img={bg1} element={<About2 />}/>
+      <div className="scroll-padding" id="mods" ref={mod}></div>
       <ModsContain />
-      <div ref={mod}></div>
-      <div ref={rules}></div>
+      <div className="scroll-padding" id="rules" ref={rules}></div>
       <Container img={bg2} element={<Rules />}/>
       <Footer />
     </div>

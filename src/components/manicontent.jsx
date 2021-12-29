@@ -3,7 +3,6 @@ import React from "react";
 function ManifestoCont() {
     return (
         <>
-            <h1 className="content-title">Our Manifesto</h1>
             <h2 className="content-subtitle">The Third Eye Collective Manifesto</h2>
             <h3 className="content-subtitle2">Written by @HiHereAmi</h3>
 
@@ -50,7 +49,7 @@ function ManifestoCont() {
             <h2 className="content-subtitle green space">STRUCTURE OF THE COLLECTIVE</h2>
 
             <h2 className="content-subtitle green space">THE DISCORD SERVER</h2>
-            <p>I want this to be clear from the get-go: I do not hold a special kind of authority for creating and modding the collective. <a href="/thirdeye" className="green">The mods</a> have the responsibility to organize information, organize the discord server roles and moderate that interaction between collective participants stays respectful.</p>
+            <p>I want this to be clear from the get-go: I do not hold a special kind of authority for creating and modding the collective. <a href="/thirdeye/#mods" className="green">The mods</a> have the responsibility to organize information, organize the discord server roles and moderate that interaction between collective participants stays respectful.</p>
             <p><b className="green">The goals, activities and/or measures taken by the collective are always up for debate.</b> We are always open on suggestions on how to help. This collective is meant to be a tool for the artist, not the other way around.</p>
             <p>The server will be open for three main activities: <b className="green">giving guidance, receiving guidance, fun, and informal art exchange.</b> The idea is that the members have both the space to have fun, collect and organize information and receive specific guidance. We wish we get to collect enough information than the need for specific guidance lessens and lessens.</p>
             

@@ -3,16 +3,17 @@ import Navigation from "../Navigation";
 import Regular from "../Regular";
 import Footer from "../Footer";
 import ManifestoCont from "../manicontent";
-function Contact() {
+import bg from "../../img/background4.svg"
+function Manifesto() {
 
 
   return (
     <>
     <Navigation />
-     <Regular element={<ManifestoCont />}/>
+     <Regular element={<ManifestoCont />} title="Our Manifesto" img={bg}/>
      <Footer />
     </>
   );
 }
 
-export default Contact;
+export default Manifesto;

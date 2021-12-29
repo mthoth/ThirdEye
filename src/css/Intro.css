@@ -401,9 +401,14 @@ color:rgb(231, 133, 133);
 }
 .content-title
 {
+    font-size: 40px;
     color: black;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 100px 0;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -80px 50px -80px rgba(0,0,0,0.3);
 }
 .content-subtitle
 {
@@ -433,29 +438,106 @@ p
 }
 .red
 {
-    color: #DC6262;
+    color:rgba(238, 186, 81, 1);
 }
 .orange
 {
-    color:rgba(217, 115, 13, 1);
+    color:rgb(228, 154, 85);
 }
 .yellow
 {
-    background-color: #e0d74d77;
+    color:rgba(228, 118, 85, 1);
+    background-color: transparent;
 }
 .green
 {
-    color: #4f8f4b;
+    color:rgba(220, 86, 135, 1);
 }
 .blue
 {
-    color:#7282d1;
+    color: rgba(197, 79, 201, 1);
+    
 }
 .purple
 {
-    color: #BE76F5;
+    color:rgba(101, 94, 206, 1);
 }
+.scroll-padding
+{
+    scroll-margin-top:63px;
+}
+.hidden
+{
+    transition: max-height .3s ease-in-out 0s;
+    padding-left: 8px;
+    overflow: hidden;
+}
+.question
+{
+
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Josefin sans";
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.flex
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px
+}
+.regnav
+{
+    font-family: "Josefin sans";
+    font-size: 18px;
+    height: 8vh;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bgred
+{
+    background-color:rgba(238, 186, 81, 0.5)
+ 
+}
+.bgorange
+{
+    background-color:rgba(228, 118, 85, 0.5);
+   
+}
+.bggreen
+{
+    background-color:rgba(220, 86, 135, 0.5);
+
+}
+.bgblue
+{
+    background-color: rgba(197, 79, 201, 0.5);
+}
+.bgpurple
+{
+    background-color:rgba(101, 94, 206, 0.5);
+  
+}
+
 @media screen and (max-width: 1024px) {
+.flex
+{
+    grid-template-columns: auto auto;
+}
+.regnav:nth-last-child(1)
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.content-title
+{
+    background-size: 250%;
+}
 .eye
 {
     padding-top: 22vh;

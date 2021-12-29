@@ -17,7 +17,15 @@
     background-color: rgb(131, 131, 131);
     border-radius: 100px;
 }
+::-moz-selection { /* Code for Firefox */
+  color: inherit;
+  background: rgba(128, 202, 236, 0.4);
+}
 
+::selection {
+  color: inherit;
+  background: rgba(128, 202, 236, 0.4);
+}
 body {
   background-color: #333037;
   margin: 0;
@@ -25,6 +33,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
