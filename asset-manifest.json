@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thirdeye/static/css/main.9b1cb4c9.css",
-    "main.js": "/thirdeye/static/js/main.cd5f53dc.js",
+    "main.js": "/thirdeye/static/js/main.a547c6f4.js",
     "static/media/Caro.png": "/thirdeye/static/media/Caro.63ce2f32461bf0729d11.png",
     "static/media/joli.png": "/thirdeye/static/media/joli.356fad4ea10a0e0625d2.png",
     "static/media/colorful1.jpg": "/thirdeye/static/media/colorful1.5e2194861cc2c23ad5a6.jpg",
@@ -32,10 +32,10 @@
     "static/media/Tumblr.svg": "/thirdeye/static/media/Tumblr.e87e96231825df588c02ec392b318623.svg",
     "static/media/Twitch.svg": "/thirdeye/static/media/Twitch.751994f701fc05b01a972ab7d4d10f9f.svg",
     "main.9b1cb4c9.css.map": "/thirdeye/static/css/main.9b1cb4c9.css.map",
-    "main.cd5f53dc.js.map": "/thirdeye/static/js/main.cd5f53dc.js.map"
+    "main.a547c6f4.js.map": "/thirdeye/static/js/main.a547c6f4.js.map"
   },
   "entrypoints": [
     "static/css/main.9b1cb4c9.css",
-    "static/js/main.cd5f53dc.js"
+    "static/js/main.a547c6f4.js"
   ]
 }
