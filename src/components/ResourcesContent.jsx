@@ -46,7 +46,7 @@ function ResourcesContent() {
         
         const temp = type.map((t, i) => {
             if (getlist(t).length === 0)
-            return;
+            return null;
             else
             return (
                 <div key={i}>
@@ -61,7 +61,7 @@ function ResourcesContent() {
         });
         for (let i = 0; i < temp.length; i++)
             {
-                if(temp[i] !== undefined)
+                if(temp[i] !== null)
                     count++;
             }
         if(count > 0)
