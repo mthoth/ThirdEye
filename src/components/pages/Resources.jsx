@@ -3,12 +3,14 @@ import Navigation from "../Navigation";
 import Regular from "../Regular";
 import Footer from "../Footer";
 import bg from "../../img/background4.svg";
+import ResourcesContent from "../ResourcesContent";
+
 function Resources () 
 {
     return (
         <>
             <Navigation />
-            <Regular element={<h1 style={{color: "black"}}>Page in development</h1>} title="Resources" img={bg}/>
+            <Regular element={<ResourcesContent />} title="Resources" img={bg}/>
             <Footer />
         </>
     );

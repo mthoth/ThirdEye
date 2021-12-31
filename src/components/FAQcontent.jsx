@@ -1,4 +1,6 @@
 import React, {useRef} from "react";
+import Reveal from "./reveal";
+
 
 function FAQcontent() {
 
@@ -27,31 +29,12 @@ const getpaid = useRef(null);
 
 
 
-    React.useEffect(() => {
-        let heights = [];
-        const hide = document.getElementsByClassName("hidden");
-
-        for (let i = 0; i < hide.length; i++) {
-            heights.push(hide[i].clientHeight)
-            hide[i].style.maxHeight = "0px";
-        }
-
-        let q1 = document.getElementsByClassName("question");
-        function hidden(i) {
-
-            if (hide[i].style.maxHeight === "0px")
-                hide[i].style.maxHeight = heights[i] + "px";
-            else
-                hide[i].style.maxHeight = 0;
-        }
-        for (let i = 0; i < q1.length; i++) {
-            q1[i].addEventListener("mousedown", function () { hidden(i); });
-        }
-    })
+  
 
 
     return (
         <>
+            <Reveal />
             <div className="flex">
                 <button onClick={Scrollwhat} className="regnav bgred">The Whats</button>
                 <button onClick={Scrollhow} className="regnav bgorange">The Hows</button>
