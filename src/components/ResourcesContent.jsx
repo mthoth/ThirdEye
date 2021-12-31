@@ -61,7 +61,7 @@ function ResourcesContent() {
         });
         for (let i = 0; i < temp.length; i++)
             {
-                if(temp[i] != undefined)
+                if(temp[i] !== undefined)
                     count++;
             }
         if(count > 0)
