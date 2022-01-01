@@ -490,6 +490,12 @@ p
     grid-template-columns: auto auto auto auto auto;
     gap: 5px
 }
+.flex2
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px
+}
 .regnav
 {
     font-family: "Josefin sans";
@@ -523,6 +529,10 @@ p
     background-color:rgba(101, 94, 206, 0.5);
   
 }
+.bggrey
+{
+    background-color: rgb(221, 221, 221);
+}
 .resources
 {
     color:#333037;
@@ -533,6 +543,7 @@ p
     display: block;
     margin:auto;
     margin-top: 30px;
+    margin-bottom: 20px;
     font-size: 14px;
     padding: 10px;
     width:50%;
@@ -557,6 +568,30 @@ p
 .list:nth-child(even)
 {
     background-color: rgb(231, 231, 231);
+}
+input[type="checkbox"]
+{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+.regfilter
+{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Josefin sans";
+    font-size: 18px;
+    padding: 20px 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+
 }
 @media screen and (max-width: 1024px) {
 .flex
