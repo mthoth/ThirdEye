@@ -6,13 +6,14 @@ import Home from "./pages/Home";
 import FAQ from "./pages/FAQ";
 import Resources from "./pages/Resources";
 import OthersLikeUs from "./pages/OtherLikeUs";
-
+import BacktoTop from "./BacktoTop";
 function Webpages()
 {
 
 
     return (
       <Router>
+        <BacktoTop />
       <Routes>
         <Route path="/thirdeye" element={<Home />} />
         <Route path="/thirdeye/Manifesto" element={<Manifesto />} />

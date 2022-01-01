@@ -11,7 +11,6 @@ import Navigation from "../Navigation";
 import ModsContain from "../ModsContain";
 import Rules from "../Rules";
 import Footer from "../Footer";
-
 //import Navigation from "./Navigation"
 
 function Home() {

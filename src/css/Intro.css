@@ -171,7 +171,7 @@ table
     width: 70%;
     margin:auto;
 }
-tr, td
+td
 {
     width: 33.3%;
 }
@@ -282,6 +282,7 @@ h3{
 {
     height: 80px;
     padding: 30px;
+    padding-bottom: 50px;
 }
 #footname
 {
@@ -567,7 +568,7 @@ p
 }
 .list:nth-child(even)
 {
-    background-color: rgb(231, 231, 231);
+    background-color: whitesmoke;
 }
 input[type="checkbox"]
 {
@@ -593,7 +594,79 @@ input[type="checkbox"]
     border-radius: 10px;
 
 }
+.others-table
+{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+.others-table thead tr 
+{
+    font-family: "Josefin Sans";
+    text-align: left;
+}
+
+.others-table th,
+.others-table td {
+    width: auto;
+    padding: 12px 15px;
+    padding-right: 0px;
+}
+
+.others-table tbody tr
+{
+    border-bottom: 1px solid #dddd;
+}
+
+.others-table tbody tr:nth-child(even)
+{
+
+    background-color: #f3f3f3;
+}
+
+.others-table tbody tr:last-of-type
+{
+    border-bottom: 3px solid grey;
+}
+.not-bold
+{
+    color: black;
+    text-decoration: underline rgb(156, 156, 156);
+}
+
+.break-word
+{
+    word-break: break-all;
+}
+.up
+{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+    font-size: 18px;
+    border:2px solid white;
+    background-color: #DC6262;
+    color: white;
+    cursor: pointer;
+}
 @media screen and (max-width: 1024px) {
+    .up
+{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 3%;
+    right: 5%;
+}
 .flex
 {
     grid-template-columns: auto auto;
@@ -699,6 +772,10 @@ h3
 #footname
 {
     font-size: 14px;
+}
+#Footer
+{
+    padding-bottom: 70px;
 }
 .footsocial
 {

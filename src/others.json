@@ -1,0 +1,89 @@
+{
+    "Collectives" : 
+    [
+        {
+            "name": "The Philippine Drawers Association",
+            "socialmedia" : "https://twitter.com/PHdrawersAssoc",
+            "discord" : "https://discord.com/invite/ZDcrz4KfQ2",
+            "website" : ""
+        },
+        {
+            "name": "The Yada Yada Collective",
+            "socialmedia" : "https://twitter.com/yadayadacollect",
+            "discord" : "https://discord.com/invite/JmHUNtuBNa",
+            "website" : "https://www.yadayadacollective.org/home"
+        },
+        {
+            "name": "The AMDI",
+            "socialmedia" : "https://www.instagram.com/amdi_ilustradores/",
+            "discord" : "",
+            "website" : "http://amdilustradores.org/"
+        },
+        {
+            "name": "Go Komikimok!!",
+            "socialmedia" : "https://twitter.com/gokomikimok",
+            "discord" : "",
+            "website" : "http://amdilustradores.org/"
+        },
+        {
+            "name": "Rise Up Animation",
+            "socialmedia" : "https://mobile.twitter.com/riseupanimation",
+            "discord" : "",
+            "website" : "https://linktr.ee/Riseupanimation"
+        },
+        {
+            "name": "LITEBOX",
+            "socialmedia" : "https://twitter.com/litebox_info",
+            "discord" : "",
+            "website" : "https://litebox.info/"
+        },
+        {
+            "name": "The AANI (Artist Alley Network International)",
+            "socialmedia" : "https://www.facebook.com/groups/artistalleynetwork",
+            "discord" : "https://discord.gg/rfx94A6",
+            "website" : ""
+        }
+    ],
+    "Discord Servers" : 
+    [
+        {
+            "name": "Profissionais das Artes Ilustrativas",
+            "link": "https://discord.gg/cKpZjXYUBT"
+        },
+        {
+            "name": "Art Corner",
+            "link": "https://discord.gg/pRGdNck"
+        },
+        {
+            "name": "Zine Town",
+            "link": "https://discord.gg/FmNE7HU"
+        }
+    ],
+    "Directories" :
+    [
+        {
+            "name": "Queer Cartoonists Database",
+            "link": "https://queercartoonists.com/"
+        },
+        {
+            "name": "Disabled Cartoonists Database",
+            "link": "https://www.disabledcartoonists.com/"
+        },
+        {
+            "name": "Cartoonists of Color Database",
+            "link": "https://cartoonistsofcolor.com/"
+        },
+        {
+            "name": "Latinx in Animation",
+            "link": "https://latinxinanimation.org/"
+        },
+        {
+            "name": "Latinx in Publishing",
+            "link": "https://latinxinpublishing.com/"
+        },
+        {
+            "name": "BIPOC Illustrators",
+            "link": "https://docs.google.com/document/d/1-CaqeUa6QkYkL-jraYzY2i1_kiALd-iQNfEU_nZMOF8/mobilebasic"
+        }
+    ]
+}
