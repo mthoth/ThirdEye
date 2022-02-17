@@ -80,7 +80,10 @@ function ModsContain()
                 country={countries["LatinAmerica"]} 
                 gender={gender["female"]} gender2={gender["neutral"]} 
                 bio="Argentinian illustrator and History & Film student." 
-                email="hihereami@gmail.com"/>
+                email="hihereami@gmail.com"
+                twitter="https://twitter.com/hihereami/"
+                instagram="https://www.instagram.com/amadajuventud/"
+                web="https://hihereami.wixsite.com/website"/>
                 
                 <Modsinfo 
                 img={Asia} 
