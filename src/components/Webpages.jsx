@@ -15,11 +15,11 @@ function Webpages()
       <Router>
         <BacktoTop />
       <Routes>
-        <Route path="/thirdeye" element={<Home />} />
-        <Route path="/thirdeye/Manifesto" element={<Manifesto />} />
-        <Route path="/thirdeye/FAQ" element={<FAQ />} />
-        <Route path="/thirdeye/Resources" element={<Resources />} />
-        <Route path="/thirdeye/Others" element={<OthersLikeUs />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Manifesto" element={<Manifesto />} />
+        <Route path="/FAQ" element={<FAQ />} />
+        <Route path="/Resources" element={<Resources />} />
+        <Route path="/Others" element={<OthersLikeUs />} />
       </Routes>
     </Router>
     );
